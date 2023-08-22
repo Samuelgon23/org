@@ -1,0 +1,54 @@
+.equipo{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+.equipo h3{
+    font-weight: 400;
+    color: #212121;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.input-color{
+    position: absolute;
+}
+
+.colaboradores{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:0){
+    .equipo{
+        padding: initial;
+        font-size: 23px;
+    }
+    .input-color{
+        top: 10px;
+        right: 10px;
+    }
+    .equipo h3{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .equipo{
+        padding: 32px;
+        font-size: 32px;
+    }
+    .input-color{
+        top: 20px;
+        right: 50px;
+    }
+    .equipo h3{
+        font-size: 40px;
+    }
+}
+
+

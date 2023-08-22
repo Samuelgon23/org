@@ -1,0 +1,30 @@
+.boton{
+    background-color: #6278f7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Monserrat', 'sans-serif';
+    border: none;
+    color: #fff; 
+    cursor: pointer;
+}
+
+.boton:hover{
+    color: #95ffd4;
+}
+
+@media screen and (min-width:0) {
+    .boton{
+        padding: 5px 30px;
+        margin: 5px 20px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .boton{
+        padding: 24px 32px;
+        margin: 32px 0;
+    }
+}
+
+

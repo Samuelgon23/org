@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-around;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.redes img {
+    padding: 0 15px;
+    opacity: 70%;
+}
+
+@media screen and (min-width:0){
+    .redes img{
+        display: block;
+        margin-top: 4px;
+    }
+    strong{
+        font-size: 18px;
+        padding-inline: 20px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .redes img{
+        display: inline-block;
+        margin-top: 10px;
+    }
+    strong{
+        font-size: 25px;
+    }
+}
